@@ -1,0 +1,343 @@
+.images-content {
+  display: grid;
+  grid-auto-flow: column;
+  margin-top: 12px;
+  column-gap: 5px;
+  cursor: pointer;
+ img {
+  :hover {
+    background-color: #000000;
+  }
+ }
+}
+.images-block {
+  display: grid;
+  grid-template-rows: 570px 171px 335px;
+  row-gap: 5px;
+  width: 670px;
+}
+.image-block-mens {
+  z-index: 0;
+}
+.block-mens-title{
+  position: absolute;
+  top: 638px;
+  width: 348px;
+  height: 105px;
+  background-color: #362a4f;
+  opacity: 0.8; 
+}
+.mens-title {
+  h1 {
+    height: 38px;
+    color: #ef5966;
+    font-family: "Aparajita";
+    font-size: 58px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 8px;
+    margin-left: 22px;
+    margin-bottom: 11px;
+  }
+  p {
+    color: #ffffff;
+    font-family: "Lato-Light";
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-left: 22px;
+  }
+}
+.mens-subtitle {
+  width: 348px;
+  height: 41px;
+  background-color: #ef5966;
+  opacity: 0.88;
+  p {
+    color: #ffffff;
+    font-family: "Aparajita";
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 7px;
+    padding-left: 13px;
+  }
+}
+.block-womens-title {
+  position: absolute;
+  top: 455px;
+  width: 267px;
+  height: 83px;
+  background-color: #362a4f;
+  opacity: 0.8;
+  h1 {
+    height: 20px;
+    color: #ef5966;
+    font-family: Aparajita;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 11px;
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+  p {
+    margin-left: 13px;
+    height: 23px;
+    color: #ffffff;
+    font-family: "Lato-Light";
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+  }
+}
+.images-block-rigth {
+  display: grid;
+  grid-template-rows: 320px 245px 510px;
+  width: 494px;
+  row-gap: 5px;
+}
+.search {
+  display: flex;
+  background-color: #f0626e;
+  input {
+    width: 470px;
+    height: 71px;
+    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    border: none;
+    margin-top: 50px;
+    margin-left: 48px;
+
+    color: #424242;
+    font-family: "Lato-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    padding-left: 23px;
+    letter-spacing: 1.44px;
+  }
+}
+.search-btn {
+  background-color: #f0626e;
+  border: none;
+  margin-left: 21px;
+  cursor: pointer;
+  // margin-top: 10px;
+}
+.block-girl {
+  display: flex;
+  justify-content: end;
+}
+.girl-shop-title {
+  color: #ffffff;
+  font-family: "Lato-Light";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  line-height: 50px;
+}
+.block-girl-shop {
+  position: absolute;
+  top: 715px;
+  width: 292px;
+  height: 55px;
+  background-color: #05aecc;
+  display: flex;
+  justify-content: end;
+}
+.shop-cart {
+  display: flex;
+  margin-left: 7px;
+  
+}
+.girl-shop-box {
+  width: 53px;
+  height: 55px;
+  background-color: #00a1be;
+  img {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+}
+.girl-shop-cart {
+  width: 53px;
+  height: 55px;
+  background-color: #f0626e;
+  img {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+}
+.girl-shop-price {
+  width: 86px;
+  height: 55px;
+  background-color: #323232;
+  color: #ffffff;
+  font-family: "Lato-Light";
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  line-height: 50px;
+  padding-left: 1px;
+  span {
+    font-size: 16px;
+    position: absolute;
+    top: -2px;
+  }
+  spam {
+    font-size: 16px;
+  }
+}
+.price {
+  padding-top: 4px;
+  padding-left: 10px;
+}
+.image-block-suvenir {
+  display: flex;
+  justify-content: end;
+}
+.suvenir-block-shop {
+  position: absolute;
+  top: 1258px;
+  width: 409px;
+  height: 55px;
+  background-color: #362a4f;
+  opacity: 0.8;
+  display: flex;
+  justify-content: end;
+}
+.suvenir-shop-title {
+  width: 109px;
+  height: 22px;
+  color: #ffffff;
+  font-family: "Lato-Light";
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 57px;
+  margin-right: 46px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.suvenir-shop-box {
+  width: 53px;
+  height: 55px;
+  background-color: #00a1be;
+  img {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+}
+.suvenir-shop-cart {
+  width: 53px;
+  height: 55px;
+  background-color: #f0626e;
+  img {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+}
+.suvenir-shop-price {
+  width: 100px;
+  height: 55px;
+  background-color: #434343;
+  opacity: 0.99;
+}
+.suvenir-shop-price {
+  width: 86px;
+  height: 55px;
+  background-color: #323232;
+  color: #ffffff;
+  font-family: "Lato-Light";
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  line-height: 50px;
+  padding-left: 1px;
+  span {
+    font-size: 16px;
+    position: absolute;
+    top: -5px;
+  }
+  spam {
+    font-size: 16px;
+  }
+}
+.price {
+  padding-left: 10px;
+}
+.image-block-clock {
+  display: flex;
+  justify-content: end;
+}
+.clock-content {
+  position: absolute;
+  top: 916px;
+  width: 87px;
+  height: 396px;
+  background: #362a4f;
+  opacity: 0.58;
+  z-index: 0;
+}
+.box-bg {
+  position: absolute;
+  opacity: 5 !important;
+  top: 933px;
+  width: 97px;
+  height: 86px;
+  z-index: 1;
+}
+.clock-title {
+  h1 {
+    transform: rotate(-90deg);
+    margin-top: 287px;
+    color: #ffffff;
+    font-family: "Aparajita";
+    font-size: 63px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    z-index: 4;
+  }
+}
+.cool {
+  width: 53px;
+  height: 53px;
+  background-color: #ffffff;
+}
+
+
+
+

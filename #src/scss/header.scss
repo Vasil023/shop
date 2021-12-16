@@ -1,0 +1,87 @@
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	@media (max-width: 1200px) {
+		width: 1040px;
+		margin: 0 auto;
+	}
+	@media (max-width: 1050px) {
+		width: 950px;
+		margin: 0 auto;
+	}
+}
+.nav-bar__info {
+	display: flex;
+	justify-content: end;
+	height: 15px;
+}
+.nav-bar__title a {
+	font-family: "Lato-Regular";
+	color: #434343;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	margin-left: 23px;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 1.44px;
+}
+.header {
+	display: flex;
+}
+.header-logo {
+	margin-left: 18px;
+}
+.header-buttons {
+	display: flex;
+	justify-content: end;
+	margin-left: 5px;
+	width: 980px;
+	height: 91px;
+	margin-left: 18px;
+	margin-top: 14px;
+	background-color: #f6f6f6;
+}
+.button {
+	margin-left: 5px;
+}
+.btn {
+	font-family: "Lato-Light";
+	color: #ffffff;
+	font-size: 16px;
+	line-height: normal;
+	font-weight: 400;
+	letter-spacing: 1.44px;
+	border: 0;
+}
+.register {
+	width: 116px;
+	height: 89px;
+	background-color: #05aecc;
+}
+.singin {
+	width: 116px;
+	height: 89px;
+	background-color: #f0626e;
+}
+.whislostr {
+	width: 142px;
+	height: 89px;
+	background-color: #05aecc;
+	img {
+		vertical-align: middle;
+		margin-left: 9px;
+		margin-bottom: 4px;
+	}
+}
+.cart {
+	width: 142px;
+	height: 89px;
+	background-color: #f0626e;
+	img {
+		vertical-align: middle;
+	}
+}

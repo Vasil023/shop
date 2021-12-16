@@ -1,0 +1,165 @@
+.product-card-wrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-card {
+  position: relative;
+}
+.product-card-content {
+  position: absolute;
+  bottom: 4px;
+}
+.sales {
+  position: absolute;
+  top: 16px;
+  width: 80px;
+  height: 34px;
+  background-color: #f0626e;
+  span {
+    color: #ffffff;
+    font-family: "Lato-Light";
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.26px;
+    position: absolute;
+    top: 29%;
+    left: 8%;
+  }
+}
+.new {
+  position: absolute;
+  top: 16px;
+  width: 80px;
+  height: 34px;
+  background-color: #05aecc;
+  span {
+    color: #ffffff;
+    font-family: "Lato-Light";
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.26px;
+    position: absolute;
+    top: 29%;
+    left: 28%;
+  }
+}
+
+.product-card-title {
+  width: 272px;
+  height: 55px;
+  background-color: #ffffff;
+  h3 {
+    color: #434343;
+    font-family: "Lato-Light";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    /* Text style for "Product Ti" */
+    font-style: normal;
+    letter-spacing: 1.62px;
+    line-height: normal;
+    padding-top: 11px;
+    padding-left: 13px;
+    margin: 0;
+  }
+}
+.descr {
+  margin: 0;
+  color: #f0626e;
+  font-family: "Lato-Light";
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  letter-spacing: 1.17px;
+  padding-left: 13px;
+}
+.product-card-price {
+  display: flex;
+}
+.card-price-arrow {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  background: white;
+  border: 1px solid #dddddd;
+  img {
+    position: absolute;
+    top: 41%;
+    left: 29%;
+  }
+}
+.card-price-box {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  background: white;
+  border: 1px solid #dddddd;
+  img {
+    position: absolute;
+    top: 36%;
+    left: 35%;
+  }
+}
+.card-price-cart {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  background: white;
+  border: 1px solid #dddddd;
+  img {
+    position: absolute;
+    top: 41%;
+    left: 33%;
+  }
+}
+.card-price-price {
+  position: relative;
+  width: 101px;
+  height: 55px;
+  background-color: #f0626e;
+  border: 1px solid #dddddd;
+}
+.price-cart {
+  width: 49px;
+  height: 18px;
+  opacity: 0.99;
+  color: #ffffff;
+  font-family: "Lato-Light";
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 15px;
+  padding-left: 15px;
+  spam {
+    font-size: 16px;
+  }
+  span {
+    font-size: 16px;
+    position: absolute;
+    top: 15px;
+  }
+}
+.blue-descr {
+  font-family: "Lato-Light";
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  letter-spacing: 1.17px;
+  padding-left: 13px;
+  margin: 0;
+  color: #05aecc;
+}
+.blue {
+  background-color: #05aecc;
+}
